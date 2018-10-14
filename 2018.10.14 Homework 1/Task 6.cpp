@@ -33,7 +33,7 @@ int main()
 	{
 		cin >> *(p + i);
 	};
-	sort(p, arraySize);
+	sort(p, N);
 	for (int i = 0; i < N; i++)
 	{
 		cout << *(p + i) << " ";
