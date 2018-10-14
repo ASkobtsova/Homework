@@ -1,3 +1,6 @@
+/*This program has to contain the "sort" function for an array of integer numbers and an example of using it. 
+Appealing by index (A[i]) is prohibited. There can be not more than 2 arguments in the function*/
+
 #include <iostream>
 using namespace std;
 void swap(int& a, int& b)
