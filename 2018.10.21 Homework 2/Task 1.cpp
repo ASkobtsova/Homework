@@ -5,10 +5,11 @@ int gcd(int a, int b)
 {
 	if (b == 0)
         {
-		return a;
-	    }
+          return a;
+	}
 	return gcd(b, a % b);
 }
+
 struct rational
 {
 	int m;
@@ -111,17 +112,17 @@ struct rational
 
 	bool operator>(const rational &A, const rational &B)
 	{
-    return (((A.m * B.n) - (B.m * A.n) > 0) && (A.n * B.n > 0)) || (((A.m * B.n) - (B.m * A.n) < 0) && (A.n * B.n < 0));
+          return (((A.m * B.n) - (B.m * A.n) > 0) && (A.n * B.n > 0)) || (((A.m * B.n) - (B.m * A.n) < 0) && (A.n * B.n < 0));
         }
 
 	bool operator<(const rational &A, const rational &B)
 	{
-     return !(A > B) && !(A == B);
+          return !(A > B) && !(A == B);
         }
 
 	bool operator>=(const rational &A, const rational &B)
 	{
-		return ((A > B) || (A == B));
+          return ((A > B) || (A == B));
 	}
 
 	bool operator<=(const rational &A, const rational &B)
