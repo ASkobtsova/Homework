@@ -102,22 +102,22 @@ struct rational
 	bool operator==(const rational &A, const rational &B)
 	{
 		return ((A.m == B.m) && (A.n == B.n));
-    }
+        }
 
 	bool operator!=(const rational &A, const rational &B)
 	{
 		return !(A == B);
-    }
+        } 
 
 	bool operator>(const rational &A, const rational &B)
 	{
     return (((A.m * B.n) - (B.m * A.n) > 0) && (A.n * B.n > 0)) || (((A.m * B.n) - (B.m * A.n) < 0) && (A.n * B.n < 0));
-    }
+        }
 
 	bool operator<(const rational &A, const rational &B)
 	{
      return !(A > B) && !(A == B);
-    }
+        }
 
 	bool operator>=(const rational &A, const rational &B)
 	{
@@ -180,9 +180,9 @@ struct rational
             cout << X << " >= " << Y << endl;
         }
         if (X < Y)
-            {
+        {
                 cout << X << " < " << Y << endl;
-            }
+        }
         if (X <= Y)
         {
             cout << X << " <= " << Y << endl;
