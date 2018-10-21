@@ -1,3 +1,8 @@
+/*This program has to contain the structure "Array" to work with arrays in
+the dynamic memory and contain a description of the structure
+and the program showing its working ability. The structure must be able to work with arrays
+of unknown size. User has to be able to make any function using this structure.*/
+
 #include <iostream>
 using namespace std;
 
