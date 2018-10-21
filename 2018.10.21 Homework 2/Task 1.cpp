@@ -1,3 +1,8 @@
+/*This program has to contain structure "Rational" working with rational numbers as with
+irrevocable fractions and contain a description of the
+structure and program showing its working ability*/
+
+
 #include <iostream>
 using namespace std;
 
