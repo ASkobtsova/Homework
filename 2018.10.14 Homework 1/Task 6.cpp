@@ -1,8 +1,7 @@
-#include <iostream>
-using namespace std;
+/*This program has to contain the "sort" function for an array of integer numbers and an example of using it. 
+Appealing by index (A[i]) is prohibited. There can be not more than 2 arguments in the function*/
 
 #include <iostream>
-
 using namespace std;
 void swap(int& a, int& b)
 {
@@ -34,7 +33,7 @@ int main()
 	{
 		cin >> *(p + i);
 	};
-	sort(p, arraySize);
+	sort(p, N);
 	for (int i = 0; i < N; i++)
 	{
 		cout << *(p + i) << " ";
