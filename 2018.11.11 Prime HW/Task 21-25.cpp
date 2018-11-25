@@ -200,6 +200,9 @@ struct Date
 		}
 		return *this;
 	}
+	
+	//TASK 25
+	
 	Date palindrom() {
 		int*date = new int[8];
 		int k = 0;
