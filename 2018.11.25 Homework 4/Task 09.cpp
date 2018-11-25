@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-    int n, sum = 0;
+    int n;
     cin >> n;
     bool *sieve = new bool[n + 1];
     sieve[0] = sieve[1] = 0;
