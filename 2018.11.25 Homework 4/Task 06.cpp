@@ -38,14 +38,12 @@ int main()
        }
    }
 for (int i = 2; i <= n; i++)
-    {
-		if ((sieve[i]) && (sieve[i + 2]) || (ver[i + 2] == 2))
-            {
+{
+		if ((sieve[i]) && ((sieve[i + 2]) || (ver[i + 2] == 2)))
+		{
 			cout << i << " ";
-		    }
-	    }
-
-
-return 0;
+		}
+	}
+	return 0;
 }
 
