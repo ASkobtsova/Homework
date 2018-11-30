@@ -12,10 +12,11 @@ int main()
     sieve[0] = sieve[1] = 0;
     int *ver = new int[n + 3];
     for (int i = 2; i <= n + 2; i++)
-{
+    {
 
     sieve[i] = 1;
     ver[i] = 0;
+    }
       for (int i = 2; i <= n + 2; i++)
     {
         if (sieve[i])
@@ -34,11 +35,8 @@ int main()
                     }
                 }
             }
-         }
-
-    }
-
-}
+       }
+   }
 for (int i = 2; i <= n; i++)
     {
 		if ((sieve[i]) && (sieve[i + 2]) || (ver[i + 2] == 2))
