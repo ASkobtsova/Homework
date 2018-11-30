@@ -1,4 +1,6 @@
-/**/
+/*Write a program that finds the roots of the equation
+2018X +2019Y=78487894 in an effective search.
+This program is effective because we don't have any variables and "cout" works with costants (O(1))*/
 
 #include <iostream>
 using namespace std;

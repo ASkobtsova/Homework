@@ -9,7 +9,7 @@ int main()
     int n;
     int sum = 0, k = 5;
     cin >> n;
-    bool *sieve = new bool[n + 1];
+    bool *sieve = new bool[2 * n + 1];
     sieve[0] = sieve[1] = 0;
     for (int i = 2; i <= 2 * n; i++)
 {
