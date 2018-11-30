@@ -20,12 +20,12 @@ int main()
     {
         if (sieve[i])
         {
-            for (int j = i + i; j <= n + 2; j+=i)
+            for (int j = i + i; j <= n + 2; j += i)
             {
                 sieve[j] = 0;
-                while ((j % i) == 0)
-                {
-                    int m = j;
+		    int m = j;
+                while ((m % i) == 0)
+		{
                     ver[j]++;
                     m /= i;
                     if (ver[j] > 2)
