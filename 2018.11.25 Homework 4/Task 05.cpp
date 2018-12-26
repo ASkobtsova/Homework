@@ -1,5 +1,6 @@
 /*This program has to contain an effective procedure that finds all elements from the array, whose product of
-nonzero digits is greater than k. Array's length is n.*/
+nonzero digits is greater than k. Array's length is n.
+The program is effective because there is only one way to increase efectiveness: to stop multiplying digits when their product is already greater then k*/
 
 #include <iostream>
 using namespace std;

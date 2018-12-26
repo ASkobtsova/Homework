@@ -12,20 +12,21 @@ int main()
     sieve[0] = sieve[1] = 0;
     int *ver = new int[n + 3];
     for (int i = 2; i <= n + 2; i++)
-{
+    {
 
     sieve[i] = 1;
     ver[i] = 0;
+    }
       for (int i = 2; i <= n + 2; i++)
     {
         if (sieve[i])
         {
-            for (int j = i + i; j <= n + 2; j+=i)
+            for (int j = i + i; j <= n + 2; j += i)
             {
                 sieve[j] = 0;
-                while ((j % i) == 0)
-                {
-                    int m = j;
+		    int m = j;
+                while ((m % i) == 0)
+		{
                     ver[j]++;
                     m /= i;
                     if (ver[j] > 2)
@@ -34,20 +35,15 @@ int main()
                     }
                 }
             }
-         }
-
-    }
-
-}
+       }
+   }
 for (int i = 2; i <= n; i++)
-    {
-		if ((sieve[i]) && (sieve[i + 2]) || (ver[i + 2] == 2))
-            {
+{
+		if ((sieve[i]) && ((sieve[i + 2]) || (ver[i + 2] == 2)))
+		{
 			cout << i << " ";
-		    }
-	    }
-
-
-return 0;
+		}
+	}
+	return 0;
 }
 

@@ -1,7 +1,7 @@
 /*this program has to contain an effective function that writes out from an array of length n all elements whose number of twos in the ternary notation is less than k.
 The function has to return the total number of twos in the ternary record of all the array numbers.
 The procedure is effective because we simply divide by 3 and find the remainder of division. It's the most effective way.
-The effectiveness is O(log3 n)*/
+The effectiveness is O(log n), log n is the number's length*/
 
 #include <iostream>
 using namespace std;
