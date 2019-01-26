@@ -1,6 +1,6 @@
 /*The performer has four commands, which are:
 1. Add 9
-2. Square it.
+2. Multiply by X
 3. Multiply by 7
 4. Add 1 to the end
 The first of them increases by 9 the initial number x, the second translates the number x to the number x*x,
