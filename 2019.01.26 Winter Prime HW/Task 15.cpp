@@ -2,7 +2,7 @@
 The program should be effective in time and memory.
 The program is effective
 
-The efectiveness is described the same way as in Task 14.*/
+The effectiveness is described the same way as in Task 14.*/
 
 #include <iostream>
 using namespace std;
