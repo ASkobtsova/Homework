@@ -1,4 +1,4 @@
-/*This program has to cont the function of the number.
+/*This program has to count the Euler function of the number.
 Effectiveness: gcd is O(log n)
 We repeat gcd procedure n-2 times (we start with 2 and end with n-1), so the total is O((n-2) * log n)*/
 
